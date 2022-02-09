@@ -2,6 +2,6 @@
 <resources>
     <!-- Sets the package name for location extra packages -->
     <string-array name="config_locationExtraPackageNames" translatable="false">
-         <item>com.snappautomotive.maps</item>
+         <item>com.ndslive.maps</item>
     </string-array>
 </resources>
