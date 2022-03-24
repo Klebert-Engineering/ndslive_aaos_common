@@ -4,6 +4,8 @@ PRODUCT_PACKAGE_OVERLAYS += device/generic/car/common/overlay device/ndslive/com
 # Add non-public overlays if they exist
 $(call inherit-product-if-exists, vendor/ndslive/non_public/additions.mk)
 
+# NDS.Live MapCruiser
+PRODUCT_PACKAGES += mapcruiser
 
 # Boot Animation
 PRODUCT_COPY_FILES += \
